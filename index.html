@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="profile">
+      <div>
+        <div class="avatar">
+          <img src="images/image-jeremy.png" alt="Jeremy's image">
+        </div>
+        <div>
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <ul>
+        <li id="daily">Daily</li>
+        <li id="weekly">Weekly</li>
+        <li id="monthly">Monthly</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <img src="images/icon-work.svg" alt="work icon">
+      <div>
+        <div class="top">
+          <p>Work</p>
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+        </div>
+        <div class="bottom">
+          <p class="curr-time">32hrs</p>
+        <p class="past-time">
+          Last Week - 36hrs
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/icon-play.svg" alt="play icon">
+      <div>
+        <div class="top">
+          <p>Play</p>
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+        </div>
+        <div class="bottom">
+          <p class="curr-time">10hrs</p>
+        <p class="past-time">
+          Last Week - 8hrs
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/icon-study.svg" alt="Study icon">
+      <div>
+        <div class="top">
+          <p>Study</p>
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+        </div>
+        <div class="bottom">
+          <p class="curr-time">4hrs</p>
+        <p class="past-time">
+          Last Week - 7hrs
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/icon-exercise.svg" alt="Exercise icon">
+      <div>
+        <div class="top">
+          <p>Exercise</p>
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+        </div>
+        <div class="bottom">
+          <p class="curr-time">4hrs</p>
+        <p class="past-time">
+          Last Week - 5hrs
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/icon-social.svg" alt="Social icon">
+      <div>
+        <div class="top">
+          <p>Social</p>
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+        </div>
+        <div class="bottom">
+          <p class="curr-time">5hrs</p>
+        <p class="past-time">
+          Last Week - 10hrs
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/icon-self-care.svg" alt="self care icon">
+      <div>
+        <div class="top">
+          <p>Self Care</p>
+          <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"  fill-rule="evenodd"/></svg>
+        </div>
+        <div class="bottom">
+          <p class="curr-time">2hrs</p>
+        <p class="past-time">
+          Last Week - 2hrs
+        </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Toluwalashe</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
