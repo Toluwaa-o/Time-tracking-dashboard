@@ -133,6 +133,7 @@ main {
     color: hsl(236, 100%, 87%);
     font-weight: 500;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .profile > ul > li:nth-child(2){
